@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <nav>
-        <Link to="/"></Link>
+        <Link to="/" />
       </nav>
       <Routes>
         <Route path="/" element={<Greeting />} />

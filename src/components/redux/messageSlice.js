@@ -8,9 +8,7 @@ const initialState = {
 };
 
 // Generated pending, fulfilled and rejected action types
-export const fetchMessages = createAsyncThunk('message/fetchMessages', () => {
-  return axios.get('api/v1/messages').then((response) => response.data);
-});
+export const fetchMessages = createAsyncThunk('message/fetchMessages', () => axios.get('api/v1/messages').then((response) => response.data));
 
 const messageSlice = createSlice({
   name: 'message',

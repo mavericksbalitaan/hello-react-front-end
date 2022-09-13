@@ -14,7 +14,10 @@ export const Greeting = () => {
       <h2>List of Messages</h2>
       {message.loading && <div>Loading...</div>}
       {!message.loading && message.error ? (
-        <div>Error: {message.error}</div>
+        <div>
+          Error:
+          {message.error}
+        </div>
       ) : null}
       {!message.loading && message.messages.length ? (
         <ul>
