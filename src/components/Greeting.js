@@ -7,7 +7,7 @@ export const Greeting = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchMessages());
-  }, []);
+  });
 
   return (
     <div>
@@ -33,3 +33,5 @@ export const Greeting = () => {
     </div>
   );
 };
+
+export default Greeting;

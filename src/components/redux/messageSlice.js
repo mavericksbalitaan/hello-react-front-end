@@ -11,6 +11,7 @@ const initialState = {
 export const fetchMessages = createAsyncThunk('message/fetchMessages', () => axios.get('api/v1/messages').then((response) => response.data));
 
 const messageSlice = createSlice({
+  /* eslint-disable no-param-reassign */
   name: 'message',
   initialState,
   reducers: {},
@@ -23,12 +24,13 @@ const messageSlice = createSlice({
       state.messages = action.payload;
       state.error = '';
     });
-    builder.addCase(fetchMessages.rejected, (state) => {
+    builder.addCase(fetchMessages.rejected, (state, action) => {
       state.loading = false;
       state.messages = [];
       state.error = action.error.message;
     });
   },
+  /* eslint-enable no-param-reassign */
 });
 
 export default messageSlice.reducer;
