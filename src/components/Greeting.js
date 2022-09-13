@@ -7,7 +7,8 @@ export const Greeting = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchMessages());
-  });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div>

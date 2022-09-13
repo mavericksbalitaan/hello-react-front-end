@@ -7,8 +7,16 @@ const initialState = {
   error: '',
 };
 
+const config = {
+  headers: {
+    'Access-Control-Allow-Origin': '*',
+  },
+};
+
 // Generated pending, fulfilled and rejected action types
-export const fetchMessages = createAsyncThunk('message/fetchMessages', () => axios.get('api/v1/messages').then((response) => response.data));
+export const fetchMessages = createAsyncThunk('message/fetchMessages', () => axios
+  .get('http://localhost:3000/api/v1/messages', config)
+  .then((response) => response.data));
 
 const messageSlice = createSlice({
   /* eslint-disable no-param-reassign */
