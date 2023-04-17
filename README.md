@@ -1,23 +1,55 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Hello-React-Front-End
+<div align="center">
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+  <h3><b>Hello-React-Front-End</b></h3>
+</div>
 
-> This is an educational project to set up a "Hello world" project as two separated apps.
+# 📗 Table of Contents
 
-Front-End: [Hello-Rails-Back-End](https://github.com/mavericks-db/hello-rails-back-end)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Author](#author)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## Built With 🛠️
+# 📖 Hello-React-Front-End <a name="about-project"></a>
 
-- [x] Programming Language: [Ruby](https://www.ruby-lang.org/en/)
-- [x] Framework: [Ruby on Rails](https://rubyonrails.org/), [React](https://reactjs.org/)
-- [x] Linter: [Rubocop](https://rubocop.org/), [stylelint](https://stylelint.io/)
-- [x] Code Editor: [VS Code](https://code.visualstudio.com/)
+**Hello-React-Front-End** is an educational project to set up a "Hello world" project as two separated apps.
 
-## Getting Started
+Back-End: [Hello-Rails-Back-End](https://github.com/mavericks-db/hello-rails-back-end)
 
-To get a local copy up and running follow these simple steps.
+## 🛠 Built With <a name="built-with"></a>
+- [x] Programming Language: [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [x] Framework: [React](https://reactjs.org/)
+- [x] Linter: [stylelint](https://stylelint.io/)
+- [x] Code Editor: [Visual Studio Code](https://code.visualstudio.com/)
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+
+In order to run this project you need:
 
 - [x] A web browser like Google Chrome.
 - [x] A code editor like Visual Studio Code with Git and Ruby.
@@ -27,82 +59,67 @@ You can check if Git is installed by running the following command in the termin
 $ git --version
 ```
 
-Likewise for Ruby installation.
-```
-$ ruby --version && irb
-```
-
-To install rails, in the terminal kindly run this command
-```
-$ gem install rails
-```
-
 ### Setup
 
-Clone the repository using the GitHub link provided below.
+Clone this repository to your desired folder:
 
 ### Install
 
-In the terminal, go to your file directory and run this command.
+Install this project with:
 
 ```
 $ git clone git@github.com:mavericks-db/hello-react-front-end.git
+$ cd hello-react-front-end/
 ```
 
 ### Usage
 
-Kindly modify the files as needed.
-
-You can run this command below:
-
+Install the package dependencies:
 ```
-$ ./bin/dev
+$ npm install
 ```
 
-### Run tests
-
-To install rspec, in the terminal kindly run this command
+To run the project, execute the following commands:
 
 ```
-$ gem install rspec
+$ npm start
 ```
 
-To run tests, please run this command
-```
-$ rspec ./spec/#{filename}_spec.rb
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Author
+## 👥 Author <a name="author"></a>
 
-👤 **Mavericks Balitaan** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
+👤 **Mavericks Balitaan**
 
-- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-mavericks--db-white?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://www.linkedin.com/in/mavericks-db/)
+- GitHub: [@mavericks-db](https://github.com/mavericks-db)
+- Twitter: [@mavericks_db](https://twitter.com/mavericks_db)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mavericks-db/)
 
-- AngelList: [![AngelList Badge](https://img.shields.io/badge/-mavericks--db-white?logo=AngelList&logoColor=000000&style=plastic)](https://angel.co/u/mavericks-db)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- GitHub: [![GitHub Badge](https://img.shields.io/badge/-mavericks--db-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/mavericks-db)
-
-- Twitter: [![Twitter Badge](https://img.shields.io/badge/-mavericks__db-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/mavericks_db)
-
-- Facebook: [![Facebook Badge](https://img.shields.io/badge/-mavericksdb-white?logo=Facebook&logoColor=1877F2&style=plastic)](https://www.facebook.com/mavericksdb/)
-
-- Gmail: [![Gmail Badge](https://img.shields.io/badge/-balitaanmavericks-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:balitaanmavericks@gmail.com)
-
-## 🤝 Contributing
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mavericks-db/hello-react-front-end/issues).
+Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Microverse](https://www.microverse.org/)
-- Code Reviewers
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-## 📝 License
+I would like to thank [Microverse](https://www.microverse.org/) and its Code Reviewers.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
